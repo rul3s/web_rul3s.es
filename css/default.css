@@ -9,6 +9,7 @@ h1, h2, h3, p{
     padding: 0;
 
     color: #FFF;
+    cursor: default;
 }
 
 html, body{
@@ -18,6 +19,10 @@ html, body{
     min-height: 600px;
 }
 
+html{
+    background: #000;
+}
+
 body{
     background: url("../res/img/bg1.jpg");
     background-size: cover;
@@ -25,7 +30,7 @@ body{
 }
 
 header{
-    background: rgba(80,180,100,0.5);
+    /*background: rgba(80,180,100,0.5);*/
     height: 45%;
 
     padding-top: 150px;
@@ -33,41 +38,62 @@ header{
 }
 
 section{
-    background: rgba(180,80,100,0.5);
+    /*background: rgba(180,80,100,0.5);*/
     height: 45%;
 }
 
 footer{
-    background: rgba(100,180,80,0.5);
+    /*background: rgba(100,180,80,0.5);*/
     height: 10%;
 }
 
-
+/*********************************************************************************************************************/
 
 h1{
+    width: 50%;
+    margin: 0 auto;
     font-size: 4em;
     font-family: Aldrich, Arial;
+    text-shadow: 0 0 5px #FF0000;
+    transition: 1s;
+
+    cursor: default;
 }
 
 h2{
-    font-size: 3em;
+    font-size: 2.5em;
     font-family: Caveat, Arial;
+    text-shadow: 0 0 5px #00FF00;
+
 }
 
 h3{
     font-size: 2em;
     font-family: Helvetica, Arial;
+    text-shadow: 0 0 5px #0000FF;
 }
 
-section div#social{
-    margin: 0 auto;
-    text-align: center;
+section div{
+    /*background: rgba(100,150,200, 0.5);*/
+    height: 30%;
+    margin: 20px 0px 40px 0px;
 }
 
-img{
-    width: 5%;
+section div figure{
+    height: 100%;
+    width: 100px;
+    margin: 0 0.5%;
+
+    display: inline-block;
 }
 
+section div figure img{
+    height: 60%;
+}
+
+section div figure figcaption{
+    opacity: 0;
+}
 
 /********************************************************** FONTS *****************************************************/
 @font-face {
@@ -78,4 +104,11 @@ img{
 @font-face {
     font-family: Caveat;
     src: url("../res/font/Caveat-Regular.ttf");
+}
+
+/******************************************************** EFFECTS ****************************************************/
+h1:hover{
+    font-size: 5em;
+    text-shadow: 0 0 10px #FF0000;
+    transition: 1s;
 }
