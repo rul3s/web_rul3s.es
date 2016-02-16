@@ -75,7 +75,7 @@ h3{
 }
 
 section div{
-    background: rgba(100,150,200, 0.5);
+    /*background: rgba(100,150,200, 0.5);*/
     height: 20%;
     width: 100%;
     min-width: 600px;
@@ -83,7 +83,7 @@ section div{
 }
 
 section div figure{
-    background: rgba(150,200,250, 0.5);
+    /*background: rgba(150,200,250, 0.5);*/
     height: 100%;
     /*width: px;*/
     margin: 0px 1%;
