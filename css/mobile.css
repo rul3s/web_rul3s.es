@@ -1,0 +1,65 @@
+html, body, header, nav, section, aside, footer{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+    min-width: 800px;
+    height: 100%;
+    min-height: 600px;
+}
+
+body{
+    background: url("../res/img/bg3.jpg") center;
+    background-size: cover;
+    text-align: center;
+}
+
+header{
+    text-align: center;
+    margin: 20% auto;
+    top: 25%;
+}
+
+section{
+    display: none;
+}
+
+h1, h2{
+    margin: 0;
+    padding: 0;
+
+    color: #FFF;
+    cursor: default;
+}
+
+h1{
+    margin: 0 auto;
+    font-size: 3.5em;
+    font-family: Aldrich, Arial;
+    text-shadow: 0 0 5px #FF0000;
+    transition: 1s;
+
+    display: inline-block;
+
+    cursor: default;
+}
+
+h2{
+    font-size: 2.5em;
+    font-family: Caveat, Arial;
+    text-shadow: 0 0 5px #00FF00;
+
+}
+
+@font-face {
+    font-family: Aldrich;
+    src: url("../res/font/Aldrich-Regular.ttf");
+}
+
+@font-face {
+    font-family: Caveat;
+    src: url("../res/font/Caveat-Regular.ttf");
+}
