@@ -17,6 +17,7 @@ html, body{
     min-width: 800px;
     height: 100%;
     min-height: 600px;
+    max-height: 100%;
 }
 
 html{
@@ -51,26 +52,17 @@ footer{
 
 h1{
     margin: 0 auto;
-    font-size: 3.5em;
-    font-family: Aldrich, Arial;
     text-shadow: 0 0 5px #FF0000;
     transition: 1s;
-
     display: inline-block;
-
     cursor: default;
 }
 
 h2{
-    font-size: 2.5em;
-    font-family: Caveat, Arial;
     text-shadow: 0 0 5px #00FF00;
-
 }
 
 h3{
-    font-size: 1.5em;
-    font-family: Caveat, Arial;
     text-shadow: 0 0 5px #0000FF;
 }
 
@@ -100,17 +92,6 @@ section div figure figcaption{
     opacity: 0;
 }
 
-/********************************************************** FONTS *****************************************************/
-@font-face {
-    font-family: Aldrich;
-    src: url("../res/font/Aldrich-Regular.ttf");
-}
-
-@font-face {
-    font-family: Caveat;
-    src: url("../res/font/Caveat-Regular.ttf");
-}
-
 /******************************************************** EFFECTS ****************************************************/
 h1{transition: 1s ease-in-out;}
 h1:hover{
@@ -131,3 +112,17 @@ figure img:hover{
 
     transform: scale(1.5) rotate(360deg);
 }
+
+/******************************************************* BARS ********************************************************/
+
+div#contact{
+    background: #FFF;
+    height: 50px;
+    width: 150px;
+    z-index: 1;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+}
+
+div

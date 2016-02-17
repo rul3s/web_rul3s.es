@@ -1,0 +1,24 @@
+.font1 {
+    font-size: 3.5em;
+    font-family: Aldrich, Arial;
+}
+
+.font2{
+    font-size: 2.5em;
+    font-family: Caveat, Arial;
+}
+
+.font3{
+    font-size: 1.5em;
+    font-family: Caveat, Arial;
+}
+
+@font-face {
+    font-family: Aldrich;
+    src: url("../res/font/Aldrich-Regular.ttf");
+}
+
+@font-face {
+    font-family: Caveat;
+    src: url("../res/font/Caveat-Regular.ttf");
+}
