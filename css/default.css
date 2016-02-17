@@ -114,15 +114,50 @@ figure img:hover{
 }
 
 /******************************************************* BARS ********************************************************/
-
-div#contact{
-    background: #FFF;
-    height: 50px;
-    width: 150px;
-    z-index: 1;
-    bottom: 0px;
-    right: 0px;
-    position: absolute;
+footer div, footer div span{
+    margin: 0px;
+    padding: 0px;
 }
 
-div
+div.hide{
+    bottom: -50px;
+}
+
+div.hide:hover{
+    background: #fffeb7;
+    text-shadow: 0 0 10px #FF0000;
+}
+
+div#contact{
+    border-radius: 20px 20px 0px 0px;
+    background: #FFF;
+    height: 400px;
+    width: 150px;
+    z-index: 1;
+    bottom: -360px;
+    right: 50px;
+    position: fixed;
+
+    box-shadow: 0 0 10px #0000FF;
+    transition: 1s ease-in-out;
+
+    cursor: default;
+}
+
+div#contact:hover{
+    background: #d8fcff;
+    bottom: -50px;
+    transform: rotate(5deg);
+
+    box-shadow: 0 0 10px #FF0000;
+    transition: 500ms ease-in-out;
+}
+
+div.hide:hover{
+    display:block;
+}
+
+div#contact img{
+    height: 30px;
+    margin-right: 5px;
+}

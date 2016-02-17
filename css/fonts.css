@@ -13,6 +13,11 @@
     font-family: Caveat, Arial;
 }
 
+.font4{
+    font-size: 1em;
+    font-family: Caveat, Arial;
+}
+
 @font-face {
     font-family: Aldrich;
     src: url("../res/font/Aldrich-Regular.ttf");
