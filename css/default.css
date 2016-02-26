@@ -126,23 +126,3 @@ a{
     text-decoration: none;
     color: black;
 }
-
-/*
-div#contact img{
-    height: 30px;
-    margin-right: 5px;
-}
-
-div.hide{
-    bottom: -50px;
-}
-
-div.hide:hover{
-    background: #fffeb7;
-    text-shadow: 0 0 10px #FF0000;
-}
-
-div.hide:hover{
-    display:block;
-}
-*/
