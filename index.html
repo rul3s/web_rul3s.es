@@ -7,9 +7,10 @@
     <meta name="description" content="Raül Valls Serra professional WebSite, more about me inside.">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="css/desktop.css">
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/fonts.css">
-    <!--<link rel="stylesheet" href="css/mobile.css">-->
+    <script src="js/code.js"></script>
 
     <link rel="icon" type="image/png" href="res/img/icons/icon.png" />
 </head>
@@ -45,11 +46,28 @@
 
     </section>
     <footer>
-        <div id="contact">
-            <span class="font3">CONTrACT</span>
-            <div id="mail" class="hide font3"><img  src="res/img/icons/mail.png" alt="mail">MailMe!</div>
-            <div id="phone" class="hide font3"><img  src="res/img/icons/phone.png" alt="mail">PhoneMe!</div>
+        <div id="contactContainer">
+            <div id="contact" ckass="contOpt">Contact</div>
+
+            <div id="telegram" class="contOpt">
+                <a onClick="changeTelegram();">
+                    <img  src="res/img/icons/telegram.png" alt="telegram"><span id="aTele">Telegram</span></a></div>
+
+            <div id="phone" class="contOpt">
+                <a onClick="changePhone();">
+                    <img  src="res/img/icons/phone2.png" alt="phone"><span id="aPhone">Phone</span></a></div>
+
+            <div id="mail" class="contOpt">
+                <a href="mailto:valls.raul@gmail.com?subject=Contact@website">
+                    <img  src="res/img/icons/mail.png" alt="mail">Mail</a></div>
         </div>
     </footer>
+
 </body>
 </html>
+
+<!--
+<div id="contact" class="contOpt">MailMe!</div>
+            <div id="mail" class="contOpt"><img  src="res/img/icons/mail.png" alt="mail">MailMe!</div>
+            <div id="phone" class="contOpt"><img  src="res/img/icons/phone.png" alt="mail">PhoneMe!</div>
+-->
