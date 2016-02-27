@@ -82,14 +82,14 @@ div.contOpt{
     align-content: center;
     background: #ccc;
     border: 1px solid black;
-    width: 32%;
+    width: 30%;
     height: 4vh;
 
     text-align: center;
 }
 
 footer #contactContainer figure{
-    margin: 0 1vh;
+    margin: 0 0;
 }
 
 footer #contactContainer img{
@@ -100,5 +100,9 @@ footer #contactContainer img{
 a{
     color: black;
     text-decoration: none;
+}
+
+section h3{
+    display: none;
 }
 
