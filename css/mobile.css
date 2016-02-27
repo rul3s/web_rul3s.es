@@ -9,12 +9,20 @@ html{
 }
 
 body{
-    background: url("../res/img/bg3_rot.jpg") no-repeat center center fixed;
+    background: url("../res/img/bg3_rot.jpg") fixed;
+    background-size: contain;
     text-align: center;
 }
 
+header{
+    padding-top: 5vh;
+    margin-bottom: 5vh;
+}
+
 footer{
-    display:none;
+    padding-top: 1vh;
+    clear: both;
+    background: #000;
 }
 
 h1, h2, h3, p{
@@ -23,6 +31,74 @@ h1, h2, h3, p{
     color: #FFF;
 }
 
+header h1{
+    text-shadow: 0 0 1vh #FF0000;
+}
 header h2{
     display: none;
 }
+
+div#social{
+    margin-left: 5vh;
+    width: 35vw;
+    float: left;
+}
+
+div#services{
+    margin-right: 5vh;
+    width: 35vw;
+    float: right;
+}
+
+section h3{
+    margin-top: 5vh;
+    text-shadow: 0 0 1vh #00FF00;
+}
+
+figure img{
+    width: 15vw;
+}
+
+figure:nth-last-child(1){
+    margin-bottom: 0;
+}
+
+footer #contactContainer{
+}
+
+footer #contactContainer *{
+    display: inline-block;
+    margin: 0;
+    padding: 0
+}
+
+footer #contact{
+    display: none;
+}
+
+div.contOpt{
+    margin: 0; padding: 0;
+    display: flex;
+    align-content: center;
+    background: #ccc;
+    border: 1px solid black;
+    width: 32%;
+    height: 4vh;
+
+    text-align: center;
+}
+
+footer #contactContainer figure{
+    margin: 0 1vh;
+}
+
+footer #contactContainer img{
+    float: left;
+    height: 3vh;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
